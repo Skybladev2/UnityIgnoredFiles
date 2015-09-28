@@ -2,6 +2,7 @@
 A list of ignore files pattern for Unity3D editor.
 Taken from http://stackoverflow.com/questions/18225126/how-to-use-git-for-unity-source-control
 ```
+syntax:glob
 # =============== #
 # Unity generated #
 # =============== #
@@ -15,10 +16,10 @@ ExportedObj/
 obj/
 *.svd
 *.userprefs
-/*.csproj
+*.csproj
 *.pidb
 *.suo
-/*.sln
+*.sln
 *.user
 *.unityproj
 *.booproj
